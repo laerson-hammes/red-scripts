@@ -1,2 +1,2 @@
-# red-scripts
+# Red Scripts
  Red Script with Python
