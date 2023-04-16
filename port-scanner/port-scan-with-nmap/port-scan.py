@@ -13,7 +13,7 @@ DEFAULT_PORT_RANGE = "22-40043"
 
 class PortScan(object):
 
-    def __init__(self, hostname: str, portrange: str) -> None:
+    def __init__(self, hostname: str, portrange: str, /) -> None:
         self.hostname: str = hostname
         self.portrange: str = portrange
         try:

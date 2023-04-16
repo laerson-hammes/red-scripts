@@ -20,7 +20,7 @@ class PortScan(object):
         self.port: str = port
         self.sock = None
 
-    def check_port_range(self) -> Tuple[int, int]:
+    def check_port_range(self, /) -> Tuple[int, int]:
         if len(self.port.split("-")) == 2:
             start, end = self.port.split("-")
             if int(start) > int(end):
@@ -29,7 +29,7 @@ class PortScan(object):
             return (int(start), int(end))
         return (-1, int(self.port))
 
-    def check_port(self, port: int):
+    def check_port(self, port: int, /) -> str:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
             sock.settimeout(3)
             try:
