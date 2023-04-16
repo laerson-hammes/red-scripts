@@ -10,7 +10,7 @@ Ao executar o script você pode passar por parâmetro o hostname / domain e a po
 
 O padrão, caso não seja especificado, é "127.0.0.1"
 
-### --port
+### --port:
 
 > python .\port-scan.py --port "80"
 
@@ -19,3 +19,9 @@ Informando um range de portas:
 > python .\port-scan.py --port "22-443"
 
 O padrão, caso não seja especificado, é "1-65535"
+
+### --help ou -h para ajuda:
+
+> python .\port-scan.py --help
+
+> python .\port-scan.py -h

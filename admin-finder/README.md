@@ -16,7 +16,7 @@ Um código simples que utiliza de **Força Bruta - Brute Force** para encontrar 
 
 > python .\admin-finder.py --wordlist "subdomains.txt"
 
-### Para ajuda:
+### --help ou -h para ajuda:
 
 > python .\admin-finder.py --help
 

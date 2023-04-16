@@ -11,7 +11,7 @@ Após ter instalado o NMAP, execute o script. Você pode passar por parâmetro o
 
 O padrão, caso não seja especificado, é "127.0.0.1"
 
-### --port
+### --port:
 
 > python .\port-scan.py --port "80"
 
@@ -20,3 +20,9 @@ Informando um range de portas:
 > python .\port-scan.py --port "22-443"
 
 O padrão, caso não seja especificado, é "22-40043"
+
+### --help ou -h para ajuda:
+
+> python .\port-scan.py --help
+
+> python .\port-scan.py -h
