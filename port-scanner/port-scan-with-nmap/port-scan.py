@@ -47,7 +47,7 @@ class PortScan(object):
                         print(f"{Fore.RED}[+] PORT OPEN: {port}...")
 
 
-def main():
+def main() -> None:
     parser: argparse.ArgumentParser = argparse.ArgumentParser()
     parser.add_argument(
         "--host",

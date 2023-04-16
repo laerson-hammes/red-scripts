@@ -52,7 +52,7 @@ class PortScan(object):
             print(self.check_port(int(self.port)))
 
 
-def main():
+def main() -> None:
     parser: argparse.ArgumentParser = argparse.ArgumentParser()
     parser.add_argument(
         "--host",
