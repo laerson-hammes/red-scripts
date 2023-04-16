@@ -1,0 +1,4 @@
+.mypy_cache
+.flake8
+.gitattributes
+.env
