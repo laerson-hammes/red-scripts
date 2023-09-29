@@ -173,7 +173,7 @@ def main():
     dotenv.load_dotenv()
     init(autoreset=True)
     try:
-        listener = Listener(os.getenv("IP"), int(os.getenv("PORT")))
+        listener = Listener(os.getenv("MACHINE_IP"), int(os.getenv("PORT")))
         listener.start()
     except Exception as e:
         print(f"{Fore.RED}[-] {e}...")
