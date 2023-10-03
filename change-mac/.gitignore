@@ -1,0 +1,5 @@
+.mypy_cache
+.flake8
+.gitattributes
+.eggs
+notes
