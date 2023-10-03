@@ -10,9 +10,10 @@ O adaptador de rede pode ser especificado a partir de Command-Line Interface - C
 
 > python .\change-mac.py --interface {interface_name}
 
-Caso o adaptador não seja passado na hora da chamada do código, o mesmo será questiuonado em seguida.
+Caso o adaptador não seja passado na hora da chamada do código, o mesmo será questionado em seguida.
 
 ### Reiniciando o adaptador de rede
 
 > Windows: Restart-NetAdapter
+
 > Linux: ...
