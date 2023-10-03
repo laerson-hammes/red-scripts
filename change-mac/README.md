@@ -6,14 +6,14 @@ O adaptador de rede pode ser especificado a partir de Command-Line Interface - C
 
 ### -i ou --interface:
 
-> python .\change-mac.py -i {interface_name}
+> python .\change-mac.py -i "Interface Name"
 
-> python .\change-mac.py --interface {interface_name}
+> python .\change-mac.py --interface "Interface Name"
 
 Caso o adaptador não seja passado na hora da chamada do código, o mesmo será questionado em seguida.
 
 ### Reiniciando o adaptador de rede
 
-> Windows: Restart-NetAdapter
+> Windows: Restart-NetAdapter -Name "NetAdapter Name"
 
 > Linux: ...
