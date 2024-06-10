@@ -2,7 +2,7 @@
 
 Ao executar o script você pode passar por parâmetro o IP/range ao qual deseja enviar a requisição ARP. Caso não seja especificado, o mesmo será solicitado.
 
-## Examplo:
+## Example:
 
 ### -ipr:
 
