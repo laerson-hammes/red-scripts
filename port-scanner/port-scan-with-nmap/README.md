@@ -3,7 +3,7 @@
 Para executar o script você precisa ter instalado em sua máquina o NMAP, o mesmo pode ser encontrado em <https://nmap.org/download.html>.
 Após ter instalado o NMAP, execute o script. Você pode passar por parâmetro o hostname / domain e a porta / um range de portas. 
 
-## Examplo:
+## Example:
 
 ### --host:
 
