@@ -2,7 +2,7 @@
 
 Um código simples que utiliza de **Força Bruta - Brute Force** para encontrar páginas de **ADMIN**. Ao executar o script você pode passar por parâmetro o hostname / domain e o caminho para a wordlist. Caso não passar, será solicitado. 
 
-## Examplo:
+## Example:
 
 ### --host ou -hn:
 
