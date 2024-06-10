@@ -2,7 +2,7 @@
 
 Ao executar o script você pode passar por parâmetro o domain, caso não especificar, o mesmo será solicitado. 
 
-## Examplo:
+## Example:
 
 ### -d ou --domain:
 
