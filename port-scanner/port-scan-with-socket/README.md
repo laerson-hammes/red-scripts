@@ -2,7 +2,7 @@
 
 Ao executar o script você pode passar por parâmetro o hostname / domain e a porta / um range de portas. 
 
-## Examplo:
+## Example:
 
 ### --host:
 
