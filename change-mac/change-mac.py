@@ -123,7 +123,7 @@ class ArgParser:
         This function is responsible for checking the command line arguments
         """
         arguments: argparse.Namespace = self.get_arguments()
-        print(type(arguments))
+
         if not arguments.interface:
             arguments.interface = input(f"{Fore.GREEN}[+] SPECIFY AN INTERFACE: ")
         return arguments.interface
